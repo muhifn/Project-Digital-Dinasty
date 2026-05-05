@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M179 168C180.5 100.8 211.7 70 255.8 70C300.1 70 331.4 100.8 333 168" stroke="#3F3F3F" stroke-width="28" stroke-linecap="round"/>
+  <path d="M112 183C112 167.5 124.5 155 140 155H253V439H130C120.1 439 112 430.9 112 421V183Z" fill="url(#leftBody)"/>
+  <path d="M253 155H372C387.5 155 400 167.5 400 183V371C400 408.6 369.6 439 332 439H253V155Z" fill="url(#rightBody)"/>
+  <path d="M120 175C123.4 163.4 133.9 155 146.3 155H365.8C378.4 155 388.9 163.4 392.1 175C366.3 171.1 319.2 168.3 256 168.3C192.6 168.3 145.4 171.1 120 175Z" fill="#79D85C" opacity=".72"/>
+  <ellipse cx="195" cy="263" rx="62" ry="58" fill="white"/>
+  <ellipse cx="315" cy="263" rx="62" ry="58" fill="white"/>
+  <circle cx="203" cy="276" r="38" fill="#2F2F2F"/>
+  <circle cx="323" cy="276" r="38" fill="#2F2F2F"/>
+  <circle cx="219" cy="245" r="22" fill="white"/>
+  <circle cx="339" cy="245" r="22" fill="white"/>
+  <path d="M130 439C138.5 370.2 190.8 323.9 253 323.9C315.6 323.9 367.8 370.2 376 439H130Z" fill="url(#belly)"/>
+  <path d="M221 320C229.4 300.2 240.5 289.7 256 289.7C271.5 289.7 282.7 300.2 291 320C282.1 343.2 268.3 357.6 256 357.6C243.8 357.6 229.9 343.2 221 320Z" fill="url(#beakTop)"/>
+  <path d="M221 320L256 350.5L291 320C285.5 350.9 271.5 370 256 370C240.5 370 226.5 350.9 221 320Z" fill="#FF8A00"/>
+  <path d="M253 155H256V439H253V155Z" fill="#2B8E34" opacity=".18"/>
+  <defs>
+    <linearGradient id="leftBody" x1="119" y1="164" x2="255" y2="439" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#65C957"/>
+      <stop offset="1" stop-color="#218D2B"/>
+    </linearGradient>
+    <linearGradient id="rightBody" x1="253" y1="162" x2="404" y2="421" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58B951"/>
+      <stop offset="1" stop-color="#2E8F38"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="148" y1="331" x2="339" y2="461" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#85C865"/>
+      <stop offset="1" stop-color="#69B653"/>
+    </linearGradient>
+    <linearGradient id="beakTop" x1="221" y1="323" x2="291" y2="323" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB000"/>
+      <stop offset=".52" stop-color="#FFE56F"/>
+      <stop offset="1" stop-color="#FFB000"/>
+    </linearGradient>
+  </defs>
+</svg>

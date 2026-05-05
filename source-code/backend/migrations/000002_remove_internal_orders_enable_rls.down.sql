@@ -1,0 +1,3 @@
+-- Intentionally no-op.
+-- This migration removes legacy internal order tables after the app moved to
+-- Tokopedia checkout. Recreating dropped production data is not supported.

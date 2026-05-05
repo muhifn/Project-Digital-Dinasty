@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+next/
+.pnpm-store/
+
+# Build
+.next/
+next.dev.vcjs
+.next VAOB
+out/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test & Docs
+e2e/
+playwright.config.ts
+scripts/run-e2e.sh
+vitest.config.ts
+README.md
+DEPLOYMENT.md
+docs/
+playwright-report/
+test-results/
+
+# Env
+.env
+.env.local
+.env.*.local
+*.env

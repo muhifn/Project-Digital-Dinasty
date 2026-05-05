@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Frontend build output
+.next/
+out/
+build/
+coverage/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Local deploy/cache folders
+.vercel/
+output/
+test-results/
+playwright-report/
+
+# Backend build output
+source-code/backend/planet-motor-bmw-api
+source-code/backend/rdp-api
+*.exe
+*.test
+*.out
+
+# Local runtime uploads
+source-code/backend/uploads/
+source-code/frontend/public/uploads/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

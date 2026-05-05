@@ -1,0 +1,33 @@
+# Binaries
+rdp-api
+planet-motor-bmw-api
+cmd/server/server
+cmd/seed/seed
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of go coverage
+*.out
+
+# Environment
+.env
+
+# Uploads (runtime)
+uploads/smoke-*/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

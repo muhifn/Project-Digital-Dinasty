@@ -1,0 +1,56 @@
+{
+  "project_name": "Planet Motor BMW - Spare Part Catalog",
+  "design_system": {
+    "colors": {
+      "brand": {
+        "primary": "#1C69D4",
+        "primary_hover": "#1557B5",
+        "accent": "#DCEAFE",
+        "surface_warm": "#F3F7FD"
+      },
+      "neutrals": {
+        "background": "#EAF1F8",
+        "surface_navbar": "#FFFFFF",
+        "surface_card": "#FFFFFF",
+        "border_subtle": "#E5E7EB",
+        "footer_bg": "#F3F7FD"
+      },
+      "text": {
+        "heading": "#1A1A1A",
+        "body": "#4B5563",
+        "muted": "#9CA3AF",
+        "on_primary": "#FFFFFF"
+      },
+      "semantic": {
+        "success": "#2D6A4F",
+        "warning": "#FFB703",
+        "error": "#D00000"
+      }
+    },
+    "typography": {
+      "headings": {
+        "family": "Plus Jakarta Sans, Sans-serif",
+        "weight": "700"
+      },
+      "body": {
+        "family": "Plus Jakarta Sans, Sans-serif",
+        "weight": "400",
+        "size": "1rem"
+      }
+    },
+    "components": {
+      "navbar": {
+        "type": "Sticky",
+        "surface": "White"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#1C69D4",
+          "radius": "full",
+          "padding": "12px 32px",
+          "font_weight": "bold"
+        }
+      }
+    }
+  }
+}

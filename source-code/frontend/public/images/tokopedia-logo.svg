@@ -1,0 +1,18 @@
+<svg width="420" height="128" viewBox="0 0 420 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="128" rx="18" fill="white"/>
+  <g transform="translate(18 14) scale(.2)">
+    <path d="M179 168C180.5 100.8 211.7 70 255.8 70C300.1 70 331.4 100.8 333 168" stroke="#3F3F3F" stroke-width="28" stroke-linecap="round"/>
+    <path d="M112 183C112 167.5 124.5 155 140 155H253V439H130C120.1 439 112 430.9 112 421V183Z" fill="#42B549"/>
+    <path d="M253 155H372C387.5 155 400 167.5 400 183V371C400 408.6 369.6 439 332 439H253V155Z" fill="#3FA447"/>
+    <ellipse cx="195" cy="263" rx="62" ry="58" fill="white"/>
+    <ellipse cx="315" cy="263" rx="62" ry="58" fill="white"/>
+    <circle cx="203" cy="276" r="38" fill="#2F2F2F"/>
+    <circle cx="323" cy="276" r="38" fill="#2F2F2F"/>
+    <circle cx="219" cy="245" r="22" fill="white"/>
+    <circle cx="339" cy="245" r="22" fill="white"/>
+    <path d="M130 439C138.5 370.2 190.8 323.9 253 323.9C315.6 323.9 367.8 370.2 376 439H130Z" fill="#78C55D"/>
+    <path d="M221 320C229.4 300.2 240.5 289.7 256 289.7C271.5 289.7 282.7 300.2 291 320C282.1 343.2 268.3 357.6 256 357.6C243.8 357.6 229.9 343.2 221 320Z" fill="#FFC400"/>
+    <path d="M221 320L256 350.5L291 320C285.5 350.9 271.5 370 256 370C240.5 370 226.5 350.9 221 320Z" fill="#FF8A00"/>
+  </g>
+  <text x="126" y="79" fill="#03AC0E" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Tokopedia</text>
+</svg>

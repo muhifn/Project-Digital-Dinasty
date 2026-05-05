@@ -1,0 +1,10 @@
+export { HeroSection } from "@/components/home/hero-section";
+export { SocialProofSection } from "@/components/home/social-proof-section";
+export { CategoriesSection } from "@/components/home/categories-section";
+export { FeaturesSection } from "@/components/home/features-section";
+export { ServicesSection } from "@/components/home/services-section";
+export { CtaBanner } from "@/components/home/cta-banner";
+export { ReviewsCarousel } from "@/components/home/reviews-carousel";
+export { FeaturedProductsSection } from "@/components/home/featured-products-section";
+export { FaqAccordion } from "@/components/home/faq-accordion";
+export { TopPicksMarquee } from "@/components/home/top-picks-marquee";
