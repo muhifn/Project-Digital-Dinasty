@@ -1,106 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1280" viewBox="0 0 1800 1280">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
   <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.16"/>
+    <filter id="shadow" x="-18%" y="-18%" width="136%" height="136%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.14"/>
     </filter>
-    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
-      <path d="M 0 0 L 14 7 L 0 14 z" fill="#3f3f46"/>
+    <marker id="arrow" markerWidth="13" markerHeight="13" refX="11" refY="6.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 13 6.5 L 0 13 z" fill="#3f3f46"/>
     </marker>
     <style>
-      .bg{fill:#fbfbfa}.title{font:700 34px Arial, Helvetica, sans-serif;fill:#27272a}.caption{font:400 20px Arial, Helvetica, sans-serif;fill:#52525b}.small{font:400 16px Arial, Helvetica, sans-serif}.tiny{font:400 13px Arial, Helvetica, sans-serif}.label{font:400 18px Arial, Helvetica, sans-serif;fill:#3f3f46}.boxTitle{font:700 28px Arial, Helvetica, sans-serif}.boxSub{font:400 15px Arial, Helvetica, sans-serif}.boxDesc{font:400 18px Arial, Helvetica, sans-serif}.blue{fill:#0f6fc6}.green{fill:#237a13}.orange{fill:#de6b00}.red{fill:#c5162c}.line{stroke:#3f3f46;stroke-width:3;stroke-dasharray:12 12;fill:none;marker-end:url(#arrow)}.solid{stroke:#3f3f46;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .bg{fill:#fbfbfa}.title{font:700 36px Arial, Helvetica, sans-serif;fill:#18181b}.caption{font:400 20px Arial, Helvetica, sans-serif;fill:#52525b}.tiny{font:400 13px Arial, Helvetica, sans-serif}.label{font:400 18px Arial, Helvetica, sans-serif;fill:#3f3f46}.labelBg{fill:#fbfbfa;stroke:#fbfbfa;stroke-width:8}.boxTitle{font:700 28px Arial, Helvetica, sans-serif}.boxSub{font:400 15px Arial, Helvetica, sans-serif}.boxDesc{font:400 18px Arial, Helvetica, sans-serif}.blue{fill:#0f6fc6}.green{fill:#237a13}.orange{fill:#de6b00}.wa{fill:#1f8f43}.line{stroke:#3f3f46;stroke-width:3;stroke-dasharray:10 10;fill:none;marker-end:url(#arrow)}.solid{stroke:#3f3f46;stroke-width:3;fill:none;marker-end:url(#arrow)}
     </style>
   </defs>
-  <rect class="bg" width="1800" height="1280"/>
+  <rect class="bg" width="1800" height="1200"/>
 
-  <text x="48" y="72" class="title">Container View: Planet Motor BMW Catalog Platform</text>
-  <text x="48" y="108" class="caption">C4 container diagram for the source code: frontend, backend, database, and external sales channels.</text>
+  <text x="48" y="68" class="title">Diagram Kontainer C4</text>
+  <text x="48" y="104" class="caption">Arsitektur kode sumber: frontend, backend, basis data, dan kanal eksternal.</text>
 
-  <!-- Person: Buyer -->
-  <circle cx="360" cy="192" r="58" fill="#ffffff" stroke="#237a13" stroke-width="6"/>
-  <rect x="232" y="248" width="256" height="150" rx="34" fill="#ffffff" stroke="#237a13" stroke-width="6" filter="url(#shadow)"/>
-  <text x="360" y="300" text-anchor="middle" class="boxTitle green">Buyer</text>
-  <text x="360" y="326" text-anchor="middle" class="boxSub green">[Person]</text>
-  <text x="360" y="360" text-anchor="middle" class="boxDesc green">Browses BMW spare parts</text>
-  <text x="360" y="384" text-anchor="middle" class="boxDesc green">and contacts store channels.</text>
+  <circle cx="360" cy="190" r="56" fill="#ffffff" stroke="#237a13" stroke-width="6"/>
+  <rect x="230" y="246" width="260" height="146" rx="32" fill="#ffffff" stroke="#237a13" stroke-width="6" filter="url(#shadow)"/>
+  <text x="360" y="296" text-anchor="middle" class="boxTitle green">Pembeli</text>
+  <text x="360" y="322" text-anchor="middle" class="boxSub green">[Aktor]</text>
+  <text x="360" y="356" text-anchor="middle" class="boxDesc green">Melihat katalog spare part</text>
+  <text x="360" y="380" text-anchor="middle" class="boxDesc green">dan menghubungi toko.</text>
 
-  <!-- Person: Admin -->
-  <circle cx="760" cy="192" r="58" fill="#ffffff" stroke="#237a13" stroke-width="6"/>
-  <rect x="632" y="248" width="256" height="150" rx="34" fill="#ffffff" stroke="#237a13" stroke-width="6" filter="url(#shadow)"/>
-  <text x="760" y="300" text-anchor="middle" class="boxTitle green">Admin</text>
-  <text x="760" y="326" text-anchor="middle" class="boxSub green">[Person]</text>
-  <text x="760" y="360" text-anchor="middle" class="boxDesc green">Maintains product catalog,</text>
-  <text x="760" y="384" text-anchor="middle" class="boxDesc green">categories, and stock.</text>
+  <circle cx="770" cy="190" r="56" fill="#ffffff" stroke="#237a13" stroke-width="6"/>
+  <rect x="640" y="246" width="260" height="146" rx="32" fill="#ffffff" stroke="#237a13" stroke-width="6" filter="url(#shadow)"/>
+  <text x="770" y="296" text-anchor="middle" class="boxTitle green">Admin</text>
+  <text x="770" y="322" text-anchor="middle" class="boxSub green">[Aktor]</text>
+  <text x="770" y="356" text-anchor="middle" class="boxDesc green">Mengelola produk, kategori,</text>
+  <text x="770" y="380" text-anchor="middle" class="boxDesc green">dan stok barang.</text>
 
-  <!-- System boundary -->
-  <rect x="70" y="430" width="1240" height="740" rx="14" fill="none" stroke="#0f6fc6" stroke-width="5"/>
-  <text x="100" y="1126" class="boxTitle blue">Planet Motor BMW Catalog Platform</text>
-  <text x="100" y="1152" class="boxSub blue">[Software System]</text>
+  <rect x="70" y="425" width="1235" height="720" rx="14" fill="none" stroke="#0f6fc6" stroke-width="5"/>
 
-  <!-- Static assets -->
-  <rect x="112" y="500" width="320" height="172" rx="8" fill="#ffffff" stroke="#0f6fc6" stroke-width="6" filter="url(#shadow)"/>
-  <path d="M132 520 h82 a12 12 0 0 1 12 12 v20 h186 a12 12 0 0 1 12 12 v88 a12 12 0 0 1-12 12 h-280 a12 12 0 0 1-12-12 v-120 a12 12 0 0 1 12-12z" fill="#ffffff" stroke="#0f6fc6" stroke-width="5" opacity="0.12"/>
-  <text x="272" y="570" text-anchor="middle" class="boxTitle blue">Static Data</text>
-  <text x="272" y="596" text-anchor="middle" class="boxSub blue">[Container: JSON and assets]</text>
-  <text x="272" y="632" text-anchor="middle" class="boxDesc blue">Curated review data, icons,</text>
-  <text x="272" y="656" text-anchor="middle" class="boxDesc blue">and non-product imagery.</text>
+  <rect x="118" y="525" width="320" height="162" rx="8" fill="#ffffff" stroke="#0f6fc6" stroke-width="6" filter="url(#shadow)"/>
+  <path d="M138 545 h82 a12 12 0 0 1 12 12 v18 h186 a12 12 0 0 1 12 12 v80 a12 12 0 0 1-12 12 h-280 a12 12 0 0 1-12-12 v-110 a12 12 0 0 1 12-12z" fill="#ffffff" stroke="#0f6fc6" stroke-width="5" opacity="0.12"/>
+  <text x="278" y="590" text-anchor="middle" class="boxTitle blue">Data Statis</text>
+  <text x="278" y="616" text-anchor="middle" class="boxSub blue">[JSON dan aset]</text>
+  <text x="278" y="650" text-anchor="middle" class="boxDesc blue">Ulasan, ikon, dan gambar</text>
+  <text x="278" y="674" text-anchor="middle" class="boxDesc blue">non-produk.</text>
 
-  <!-- Frontend -->
-  <rect x="640" y="486" width="330" height="190" rx="8" fill="#ffffff" stroke="#0f6fc6" stroke-width="6" filter="url(#shadow)"/>
-  <rect x="640" y="486" width="330" height="28" rx="6" fill="#0f6fc6"/>
-  <circle cx="662" cy="500" r="7" fill="#ffffff"/><circle cx="685" cy="500" r="7" fill="#ffffff"/><circle cx="708" cy="500" r="7" fill="#ffffff"/>
-  <text x="805" y="568" text-anchor="middle" class="boxTitle blue">Frontend Web App</text>
-  <text x="805" y="594" text-anchor="middle" class="boxSub blue">[Next.js, React, Vercel]</text>
-  <text x="805" y="630" text-anchor="middle" class="boxDesc blue">Public catalog, product pages,</text>
-  <text x="805" y="654" text-anchor="middle" class="boxDesc blue">admin UI, theme, and i18n.</text>
+  <rect x="640" y="500" width="340" height="180" rx="8" fill="#ffffff" stroke="#0f6fc6" stroke-width="6" filter="url(#shadow)"/>
+  <rect x="640" y="500" width="340" height="30" rx="6" fill="#0f6fc6"/>
+  <circle cx="663" cy="515" r="7" fill="#ffffff"/><circle cx="688" cy="515" r="7" fill="#ffffff"/><circle cx="713" cy="515" r="7" fill="#ffffff"/>
+  <text x="810" y="575" text-anchor="middle" class="boxTitle blue">Aplikasi Frontend</text>
+  <text x="810" y="601" text-anchor="middle" class="boxSub blue">[Next.js, React]</text>
+  <text x="810" y="636" text-anchor="middle" class="boxDesc blue">Website publik, katalog,</text>
+  <text x="810" y="660" text-anchor="middle" class="boxDesc blue">admin, tema, dan bahasa.</text>
 
-  <!-- Backend -->
-  <rect x="640" y="780" width="330" height="190" rx="8" fill="#ffffff" stroke="#0f6fc6" stroke-width="6" filter="url(#shadow)"/>
-  <text x="676" y="832" class="boxTitle blue">&gt;_</text>
-  <text x="805" y="868" text-anchor="middle" class="boxTitle blue">Backend API</text>
-  <text x="805" y="894" text-anchor="middle" class="boxSub blue">[Go, chi, Railway]</text>
-  <text x="805" y="930" text-anchor="middle" class="boxDesc blue">Catalog/admin API, auth,</text>
-  <text x="805" y="954" text-anchor="middle" class="boxDesc blue">stock logic, and DB access.</text>
+  <rect x="640" y="770" width="340" height="180" rx="8" fill="#ffffff" stroke="#0f6fc6" stroke-width="6" filter="url(#shadow)"/>
+  <text x="675" y="824" class="boxTitle blue">&gt;_</text>
+  <text x="810" y="858" text-anchor="middle" class="boxTitle blue">API Backend</text>
+  <text x="810" y="884" text-anchor="middle" class="boxSub blue">[Go, chi]</text>
+  <text x="810" y="918" text-anchor="middle" class="boxDesc blue">API katalog/admin, auth,</text>
+  <text x="810" y="942" text-anchor="middle" class="boxDesc blue">stok, dan akses basis data.</text>
 
-  <!-- Database -->
-  <path d="M770 1064 C770 1028 1118 1028 1118 1064 L1118 1162 C1118 1198 770 1198 770 1162 Z" fill="#ffffff" stroke="#0f6fc6" stroke-width="6" filter="url(#shadow)"/>
-  <ellipse cx="944" cy="1064" rx="174" ry="36" fill="#ffffff" stroke="#0f6fc6" stroke-width="6"/>
-  <text x="944" y="1116" text-anchor="middle" class="boxTitle blue">Database</text>
-  <text x="944" y="1142" text-anchor="middle" class="boxSub blue">[Supabase PostgreSQL]</text>
-  <text x="944" y="1172" text-anchor="middle" class="boxDesc blue">Products, categories, stock, admin.</text>
+  <path d="M770 1028 C770 996 1120 996 1120 1028 L1120 1098 C1120 1130 770 1130 770 1098 Z" fill="#ffffff" stroke="#0f6fc6" stroke-width="6" filter="url(#shadow)"/>
+  <ellipse cx="945" cy="1028" rx="175" ry="32" fill="#ffffff" stroke="#0f6fc6" stroke-width="6"/>
+  <text x="945" y="1087" text-anchor="middle" class="boxTitle blue">Basis Data</text>
+  <text x="945" y="1112" text-anchor="middle" class="boxSub blue">[Supabase PostgreSQL]</text>
 
-  <!-- External Tokopedia -->
-  <rect x="1410" y="505" width="300" height="185" rx="18" fill="#ffffff" stroke="#de6b00" stroke-width="6" filter="url(#shadow)"/>
-  <text x="1560" y="568" text-anchor="middle" class="boxTitle orange">Tokopedia Store</text>
-  <text x="1560" y="596" text-anchor="middle" class="boxSub orange">[External System]</text>
-  <text x="1560" y="636" text-anchor="middle" class="boxDesc orange">Checkout and marketplace</text>
-  <text x="1560" y="660" text-anchor="middle" class="boxDesc orange">product discovery channel.</text>
+  <rect x="1410" y="515" width="300" height="175" rx="18" fill="#ffffff" stroke="#de6b00" stroke-width="6" filter="url(#shadow)"/>
+  <text x="1560" y="578" text-anchor="middle" class="boxTitle orange">Tokopedia</text>
+  <text x="1560" y="606" text-anchor="middle" class="boxSub orange">[Sistem eksternal]</text>
+  <text x="1560" y="646" text-anchor="middle" class="boxDesc orange">Kanal transaksi dan</text>
+  <text x="1560" y="670" text-anchor="middle" class="boxDesc orange">etalase marketplace.</text>
 
-  <!-- External WhatsApp -->
-  <rect x="1410" y="795" width="300" height="185" rx="18" fill="#ffffff" stroke="#1f8f43" stroke-width="6" filter="url(#shadow)"/>
-  <text x="1560" y="858" text-anchor="middle" class="boxTitle" fill="#1f8f43">WhatsApp</text>
-  <text x="1560" y="886" text-anchor="middle" class="boxSub" fill="#1f8f43">[External System]</text>
-  <text x="1560" y="926" text-anchor="middle" class="boxDesc" fill="#1f8f43">Inquiry, fitment support,</text>
-  <text x="1560" y="950" text-anchor="middle" class="boxDesc" fill="#1f8f43">and direct customer chat.</text>
+  <rect x="1410" y="805" width="300" height="175" rx="18" fill="#ffffff" stroke="#1f8f43" stroke-width="6" filter="url(#shadow)"/>
+  <text x="1560" y="868" text-anchor="middle" class="boxTitle" fill="#1f8f43">WhatsApp</text>
+  <text x="1560" y="896" text-anchor="middle" class="boxSub" fill="#1f8f43">[Sistem eksternal]</text>
+  <text x="1560" y="936" text-anchor="middle" class="boxDesc" fill="#1f8f43">Konsultasi produk dan</text>
+  <text x="1560" y="960" text-anchor="middle" class="boxDesc" fill="#1f8f43">bantuan kecocokan.</text>
 
-  <!-- Edges -->
-  <path class="line" d="M360 398 C420 455 560 500 640 545"/>
-  <text x="448" y="470" class="label">Loads UI from</text>
-  <path class="line" d="M760 398 C778 440 790 464 805 486"/>
-  <text x="792" y="440" class="label">Manages catalog using</text>
-  <path class="solid" d="M432 586 L640 586"/>
-  <text x="488" y="570" class="label">Provides</text>
-  <path class="line" d="M805 676 L805 780"/>
-  <text x="820" y="728" class="label">Calls API</text>
-  <text x="820" y="754" class="tiny" fill="#52525b">[JSON/HTTP]</text>
-  <path class="line" d="M852 970 C880 1018 910 1032 944 1064"/>
-  <text x="944" y="1015" class="label">Reads from and writes to</text>
-  <text x="944" y="1040" class="tiny" fill="#52525b">[PostgreSQL]</text>
-  <path class="line" d="M970 584 C1128 560 1288 560 1410 590"/>
-  <text x="1125" y="535" class="label">Opens product checkout links</text>
-  <path class="line" d="M970 625 C1150 735 1260 833 1410 876"/>
-  <text x="1120" y="765" class="label">Opens support chat links</text>
-  <path class="line" d="M360 398 C755 425 1135 460 1410 550"/>
-  <text x="900" y="420" class="label">Completes purchase through external channel</text>
+  <path class="line" d="M392 392 C470 460 555 522 640 570"/>
+  <rect x="446" y="458" width="134" height="28" class="labelBg"/><text x="513" y="478" text-anchor="middle" class="label">Membuka UI</text>
 
-  <text x="48" y="1230" class="caption">Source grouping: /source-code/frontend and /source-code/backend</text>
+  <path class="line" d="M770 392 C782 430 795 466 806 500"/>
+  <rect x="808" y="422" width="150" height="28" class="labelBg"/><text x="883" y="442" text-anchor="middle" class="label">Mengelola data</text>
+
+  <path class="solid" d="M438 606 L640 606"/>
+  <rect x="488" y="588" width="106" height="28" class="labelBg"/><text x="541" y="608" text-anchor="middle" class="label">Memuat</text>
+
+  <path class="line" d="M810 680 L810 770"/>
+  <rect x="828" y="712" width="98" height="28" class="labelBg"/><text x="877" y="732" text-anchor="middle" class="label">Panggil API</text>
+  <text x="878" y="756" text-anchor="middle" class="tiny" fill="#52525b">[JSON/HTTP]</text>
+
+  <path class="line" d="M845 950 C865 975 900 1004 930 1028"/>
+  <rect x="935" y="986" width="210" height="28" class="labelBg"/><text x="1040" y="1006" text-anchor="middle" class="label">Baca dan tulis data</text>
+  <text x="1040" y="1030" text-anchor="middle" class="tiny" fill="#52525b">[PostgreSQL]</text>
+
+  <path class="line" d="M980 588 C1135 565 1265 565 1410 598"/>
+  <rect x="1110" y="537" width="168" height="28" class="labelBg"/><text x="1194" y="557" text-anchor="middle" class="label">Buka etalase</text>
+
+  <path class="line" d="M980 642 C1135 715 1270 825 1410 890"/>
+  <rect x="1036" y="744" width="224" height="28" class="labelBg"/><text x="1148" y="764" text-anchor="middle" class="label">Buka obrolan bantuan</text>
+
+  <text x="48" y="1184" class="caption">https://github.com/muhifn/Project-Digital-Dinasty</text>
 </svg>
