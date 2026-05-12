@@ -10,8 +10,33 @@ Kode sumber dipisahkan dalam folder khusus:
 
 ```text
 source-code/
-  frontend/   Aplikasi frontend Next.js dan admin UI
-  backend/    REST API Go untuk katalog, auth admin, kategori, produk, dan stok
+├── frontend/                  # Aplikasi website Next.js
+│   ├── public/                # Asset publik seperti gambar dan ikon
+│   ├── src/
+│   │   ├── app/               # Routing halaman public, auth, dan admin
+│   │   ├── components/        # Komponen UI frontend
+│   │   ├── hooks/             # Custom React hooks
+│   │   ├── lib/               # API client, helper, i18n, formatting
+│   │   ├── stores/            # State management frontend
+│   │   ├── types/             # TypeScript types
+│   │   └── __tests__/         # Unit test frontend
+│   ├── package.json           # Dependency dan script frontend
+│   └── README.md              # Dokumentasi frontend
+│
+└── backend/                   # REST API Go
+    ├── cmd/                   # Entry point migrate, seed, server
+    ├── internal/
+    │   ├── config/            # Konfigurasi environment
+    │   ├── database/          # Koneksi PostgreSQL
+    │   ├── handler/           # HTTP handler dan routing
+    │   ├── middleware/        # Auth, CORS, rate limit, logging
+    │   ├── model/             # Struktur data/domain model
+    │   ├── repository/        # Query database
+    │   ├── service/           # Business logic
+    │   └── testutil/          # Helper testing backend
+    ├── migrations/            # File migrasi database
+    ├── go.mod                 # Dependency Go
+    └── README.md              # Dokumentasi backend
 ```
 
 Folder build, dependency lokal, file environment lokal, dan E2E tidak disertakan.
